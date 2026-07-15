@@ -5,15 +5,15 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/4f8c4514-4485-4245-ac02-bd86ae4a2ceb" height="400" alt="Web (Windows)">
+      <img src="https://github.com/user-attachments/assets/0912d804-e7c1-4686-af37-a1182b770ac0" height="400" alt="Web (Windows)">
     </td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/9419b351-264a-4d61-aa33-8d1bd51b3f71" height="400" alt="Web (iPad)">
+      <img src="https://github.com/user-attachments/assets/3d8f97de-8594-4061-adf5-04200c10773b" height="400" alt="Web (iPad)">
     </td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/cff671c8-3364-4d10-84c3-e5a743165e41" height="400" alt="Web (iPhone)">
+      <img src="https://github.com/user-attachments/assets/c807ed62-52c7-459e-b585-ac95749b7c61" height="400" alt="Web (iPhone)">
     </td>
   </tr>
   <tr>
