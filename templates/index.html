@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="LuftDrop">
+    <title>LuftDrop</title>
+    
+    <link rel="icon" type="image/png" href="/static/icon.png">
+    
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="card">
+        <span class="server-ip-badge">{{ server_ip }}</span>
+
+        <h1 class="header-title">
+            <img src="/static/icon.png" alt="LuftDrop" class="header-logo">
+            LuftDrop
+        </h1>
+        <p>Local Universal File Transfer</p>
+        
+        <div id="dropzone" class="dropzone">
+            <input type="file" id="fileInput" multiple>
+            <label id="dropLabel">
+                <strong>Tap to upload files</strong><br>
+                <span>or drag and drop here</span>
+            </label>
+        </div>
+
+        <div id="progressContainer" class="hidden">
+            <div id="progressBar"></div>
+        </div>
+        <p id="statusText"></p>
+
+        <hr class="divider">
+
+        <div class="archive-section">
+            <div class="archive-header">
+                <h3>📦 Shared Archive</h3>
+                <button id="purgeBtn" class="purge-btn">Purge Server</button>
+            </div>
+            <div id="archiveList" class="archive-list">
+                <p class="empty-text">Scanning archive...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/main.js"></script>
+</body>
+</html>
