@@ -31,5 +31,11 @@ The purpose of **LuftDrop** is to eliminate the platform limitations of **AirDro
 ## Framework
 The application is built using **web technologies** for the frontend and **Python** for the backend, which powers the local server and handles file management.
 
+## Required Python Libraries
+- FastAPI: `fastapi`
+- Python Multipart: `python-multipart`
+- Jinja2: `jinja2`
+- Uvicorn: `uvicorn`
+
 ## How It Works
 The app's core functionality and logic is a **local, universal file archive** that allows any connected device to upload and download files. Uploaded files are stored on the host device, which acts as the server, and are immediately added to the shared archive. From there, every device on the local network can access and download any available file. Since the system operates entirely within a local network, it is not exposed to the security risks typically associated with internet-based file sharing.
